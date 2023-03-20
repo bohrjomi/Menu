@@ -1,0 +1,78 @@
+.body{
+    background: aqua;
+}
+.but1{
+    position: absolute;
+    float: left;
+    top: 10px;
+    width: 200px;
+    height: 200px;
+    background: url('cattouchret.png') no-repeat;
+    background-size: cover;
+    border: 1px solid #333333;
+    padding: 10px 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: navy;
+}
+.but2{
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    width: 200px;
+    height: 200px;
+    background: url('wold.png') no-repeat;
+    background-size: cover;
+    border: 1px solid #333333;
+    padding: 10px 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: navy;
+}
+.butmenu1{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #333333;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.img1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.panel{
+    float: left;
+    top: 20px;
+    left: 5px;
+}
+.panels{
+    position: relative;
+    top: 20px
+}
+.buttons{
+    position: relative;
+}

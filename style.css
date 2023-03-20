@@ -41,6 +41,45 @@
     cursor: pointer;
     color: navy;
 }
+.but3{
+    position: absolute;
+    top: 220px;
+    width: 200px;
+    height: 200px;
+    background: url('cat.png') no-repeat;
+    background-size: cover;
+    border: 1px solid #333333;
+    padding: 10px 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: navy;
+}
+.but4{
+    position: absolute;
+    top: 220px;
+    left: 210px;
+    width: 200px;
+    height: 200px;
+    background: url('euro.png') no-repeat;
+    background-size: cover;
+    border: 1px solid #333333;
+    padding: 10px 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: navy;
+}
 .butmenu1{
     position: absolute;
     top: 5px;

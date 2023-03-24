@@ -1,25 +1,34 @@
-function run(){
-    console.log('run', document.getElementById('img').src)
-    document.getElementById('img').src = 'cattouchret.png'
-}
-function run2(){
-    console.log('run2', document.getElementById('img').src)
-    document.getElementById('img').src = 'wold.png'
-}
-function run3(){
-    console.log('run3', document.getElementById('img').src)
-    document.getElementById('img').src = 'cat.png'
-}
-function run4(){
-    console.log('run3', document.getElementById('img').src)
-    document.getElementById('img').src = 'euro.png'
+function run(index){
+    switch (index){
+        case 1:
+            document.getElementById('img').src = 'cattouchret.png'
+            break
+        case 2:
+            document.getElementById('img').src = 'wold.png'
+            break
+        case 3:
+            document.getElementById('img').src = 'cat.png'
+            break
+        case 4:
+            document.getElementById('img').src = 'euro.png'
+            break
+    }
 }
  function menu1() {
     const panel = document.getElementById("panel");
-    if (panel.style.display === "none") {
+    if (panel.style.visibility === "hidden") {
 
-        panel.style.display = "block";
+        panel.style.visibility = "visible";
     } else {
-        panel.style.display = "none";
+        panel.style.visibility = "hidden";
+    }
+};
+function menu2() {
+    const panel = document.getElementById("panel2");
+    if (panel.style.visibility === "hidden") {
+
+        panel.style.visibility = "visible";
+    } else {
+        panel.style.visibility = "hidden";
     }
 };

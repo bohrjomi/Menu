@@ -1,14 +1,7 @@
-.body{
-    background: aqua;
-}
+
 .but1{
-    position: absolute;
-    float: left;
-    top: 10px;
     width: 200px;
     height: 200px;
-    background: url('cattouchret.png') no-repeat;
-    background-size: cover;
     border: 1px solid #333333;
     padding: 10px 20px;
     font-style: italic;
@@ -17,74 +10,13 @@
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    color: navy;
-}
-.but2{
-    position: absolute;
-    top: 10px;
-    left: 210px;
-    width: 200px;
-    height: 200px;
-    background: url('wold.png') no-repeat;
-    background-size: cover;
-    border: 1px solid #333333;
-    padding: 10px 20px;
-    font-style: italic;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    color: navy;
-}
-.but3{
-    position: absolute;
-    top: 220px;
-    width: 200px;
-    height: 200px;
-    background: url('cat.png') no-repeat;
-    background-size: cover;
-    border: 1px solid #333333;
-    padding: 10px 20px;
-    font-style: italic;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    color: navy;
-}
-.but4{
-    position: absolute;
-    top: 220px;
-    left: 210px;
-    width: 200px;
-    height: 200px;
-    background: url('euro.png') no-repeat;
-    background-size: cover;
-    border: 1px solid #333333;
-    padding: 10px 20px;
-    font-style: italic;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease;
+
     cursor: pointer;
     color: navy;
 }
 .butmenu1{
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    display: inline-block;
+    width: 200px;
+    height: 50px;
     background-color: #ffffff;
     color: #333333;
     border: 1px solid #333333;
@@ -94,14 +26,7 @@
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    transition: all 0.3s ease;
     cursor: pointer;
-
-}
-.img1{
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 .panel{
     float: left;

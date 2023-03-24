@@ -6,29 +6,88 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body class="body">
+<body>
 
-<button class="butmenu1" onclick="menu1()">
-    Нажми меня
-</button >
-<div class="panels">
-        <div class="panel" id="panel" style="display: none">
-            <p class="buttons">
-                <button class="but1" onclick="run()">
-                    Нажмихуйжми
-                </button>
-                <button class="but2" onclick="run2()">
-                    Нажмихуйжми
-                </button>
-                <button class="but3" onclick="run3()">
-                    Нажмихуйжми
-                </button>
-                <button class="but4" onclick="run4()">
-                    Нажмихуйжми
-                </button>
-            </p>
+<div style="display: flex; width: 100%;height: 100%; gap: normal">
+    <div style="display: flex; flex-direction: column; gap: 10px; width: 500px; height: 500px;">
+        <div style="display: flex; flex-direction: column; gap: 10px; width: 500px; height: 500px;">
+
+        <button class="butmenu1" onclick="menu1()">
+                Нажми меня
+            </button>
+            <div style="display: flex;justify-content: space-between; gap: 5px; visibility: hidden">
+                    <div id="panel" style="display: flex; flex-direction: column; gap: 5px" >
+
+                        <div style="display: flex; justify-content: start; gap: 5px">
+
+                            <button class="but1" onclick="run(1)" style="background: url('cattouchret.png') no-repeat; background-size: cover;">
+                                Нажмихуйжми
+                            </button>
+
+                            <button class="but1" onclick="run(2)" style="background: url('wold.png') no-repeat; background-size: cover;">
+                                Нажмихуйжми
+                            </button>
+
+                        </div>
+
+                        <div style="display: flex; justify-content: start; gap: 5px">
+
+                            <button class="but1" onclick="run(3)" style="background: url('cat.png') no-repeat; background-size: cover;">
+                                Нажмихуйжми
+                            </button>
+
+                            <button class="but1" onclick="run(4)" style="background: url('euro.png') no-repeat; background-size: cover;">
+                                Нажмихуйжми
+                            </button>
+
+                        </div>
+
+                    </div>
+                <img class="img1" src="cattouchret.png" id="img" style="visibility: visible; width: 600px; height: 400px">
+            </div>
+
+    </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px; width: 500px; height: 500px;">
+
+            <button class="butmenu1" onclick="menu2()">
+                Нажми меня
+            </button>
+            <div style="display: flex;justify-content: space-between; gap: 5px; visibility: hidden">
+                <div id="panel2" style="display: flex; flex-direction: column; gap: 5px" >
+
+                    <div style="display: flex; justify-content: start; gap: 5px">
+
+                        <button class="but1" onclick="run(1)" style="background: url('cattouchret.png') no-repeat; background-size: cover;">
+                            Нажмихуйжми
+                        </button>
+
+                        <button class="but1" onclick="run(2)" style="background: url('wold.png') no-repeat; background-size: cover;">
+                            Нажмихуйжми
+                        </button>
+
+                    </div>
+
+                    <div style="display: flex; justify-content: start; gap: 5px">
+
+                        <button class="but1" onclick="run(3)" style="background: url('cat.png') no-repeat; background-size: cover;">
+                            Нажмихуйжми
+                        </button>
+
+                        <button class="but1" onclick="run(4)" style="background: url('euro.png') no-repeat; background-size: cover;">
+                            Нажмихуйжми
+                        </button>
+
+                    </div>
+
+                </div>
+                <img class="img1" src="cattouchret.png" id="img" style="visibility: visible; width: 600px; height: 400px">
+            </div>
+
         </div>
-    <img class="img1" src="cattouchret.png" id="img">
+
+
+    </div>
 </div>
 </body>
 </html>
